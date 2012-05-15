@@ -1,4 +1,4 @@
-PythonLessons
+Python Lessons For Specialist
 =============
 
-PythonLessons
+Курсы по Python в самом лучшем центре компьютерного обучения Specialist
