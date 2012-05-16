@@ -17,9 +17,9 @@ def solve(AA,BB,CC):
         return [u'Transferred to incorrect values']
 
 
-A = float(input(u'a: '))
-B = float(input(u'b: '))
-C = float(input(u'c: '))
+A = input(u'a: ')
+B = input(u'b: ')
+C = input(u'c: ')
 
 R = solve(A,B,C)
 print(R)
