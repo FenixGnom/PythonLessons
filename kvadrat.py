@@ -1,10 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
 import math
 
 def solve(AA,BB,CC):
-    if type(AA) == float and type(BB) == float and type(CC) == float :
+    try :
         DD = BB*BB - 4.0*AA*CC
         if DD >= 0.0:
             x1 = (-BB + math.sqrt(DD)) / (2.0 * AA)
@@ -13,8 +12,8 @@ def solve(AA,BB,CC):
             return [x1, x2]
         else:
             return []
-    else :
-        return [u'Transferred to incorrect values']
+    except TypeError:
+        print u'Transferred to incorrect values'
 
 
 A = input(u'a: ')
