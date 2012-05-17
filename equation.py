@@ -13,4 +13,4 @@ def solve(AA,BB,CC):
         else:
             return []
     except TypeError:
-        print u'Transferred to incorrect values'
+        raise TypeError
